@@ -9,3 +9,14 @@ Theme's name: Richest Human Alive
 
 3) Using the terminal, I run commands to install the EF Tools and NuGet packages to my
 project that will allow me to run the scaffolding terminal commands.
+
+
+The commands I ran:
+dotnet tool uninstall --global dotnet-aspnet-codegenerator
+dotnet tool install --global dotnet-aspnet-codegenerator
+dotnet tool uninstall --global dotnet-ef
+dotnet tool install --global dotnet-ef
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.SQLite
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
