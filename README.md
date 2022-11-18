@@ -48,3 +48,7 @@ using: dotnet ef migrations add rank
 
 
 4) Updated the database for the gender and rank property.
+
+5) Added Validation Rules to properties in Models/RichHuman.cs
+Using: dotnet ef migrations add New_DataAnnotations
+        dotnet ef database update
