@@ -34,6 +34,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.RichHuman[0].Gender)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RichHuman[0].Rank)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -60,6 +63,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rank)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
