@@ -47,3 +47,4 @@ using: dotnet ef migrations add rank
         dotnet ef database update
 
 
+4) Updated the database for the gender and rank property.
