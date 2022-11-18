@@ -10,6 +10,25 @@
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+
+
+<form>
+            
+    <p>
+        Search: <input type="text" asp-for="SearchString" placeholder="Name" />
+           <input type="text" asp-for="RichHumanTheirExpertise" placeholder="Expertise"  />
+            <input type="text" asp-for="RichHumanGender" placeholder="Gender"  />
+
+
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+
+
+
+
+
 <table class="table">
     <thead>
         <tr>
