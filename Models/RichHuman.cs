@@ -14,5 +14,7 @@ namespace RichestHumansAlive.Models
         public int Age { get; set; }
         public string Nationality { get; set; } = string.Empty; 
 
+        public string Gender { get; set; } = string.Empty;
+
     }
 }
