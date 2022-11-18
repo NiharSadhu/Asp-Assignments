@@ -50,6 +50,11 @@
                 <span asp-validation-for="RichHuman.Gender" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="RichHuman.Rank" class="control-label"></label>
+                <input asp-for="RichHuman.Rank" class="form-control" />
+                <span asp-validation-for="RichHuman.Rank" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>

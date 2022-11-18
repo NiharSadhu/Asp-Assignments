@@ -38,4 +38,12 @@ Assignment 2
 1) In the same repository I used for my previous assignment, I created a new branch and
 named it Assignment 2.
 
-2) Added a new property in Models/RichHuman.cs named gender.
+2) Added a new string property in Models/RichHuman.cs named gender.
+using: dotnet ef migrations add gender
+        dotnet ef database update
+
+3) Added a new int property in Models/RichHuman.cs named rank.
+using: dotnet ef migrations add rank
+        dotnet ef database update
+
+

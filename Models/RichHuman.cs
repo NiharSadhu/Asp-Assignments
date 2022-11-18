@@ -16,5 +16,7 @@ namespace RichestHumansAlive.Models
 
         public string Gender { get; set; } = string.Empty;
 
+        public int Rank { get; set; }
+
     }
 }
