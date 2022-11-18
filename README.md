@@ -31,3 +31,11 @@ dotnet-aspnet-codegenerator razorpage -m RichHuman -dc RichestHumansAliveContext
 dotnet tool install --global dotnet-ef
 dotnet ef migrations add InitialCreate
 dotnet ef database update
+
+
+Assignment 2
+
+1) In the same repository I used for my previous assignment, I created a new branch and
+named it Assignment 2.
+
+2) Added a new property in Models/RichHuman.cs named gender.
