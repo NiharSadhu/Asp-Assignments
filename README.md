@@ -52,3 +52,6 @@ using: dotnet ef migrations add rank
 5) Added Validation Rules to properties in Models/RichHuman.cs
 Using: dotnet ef migrations add New_DataAnnotations
         dotnet ef database update
+
+6) Added the ability to search database data and the are able to
+search 3 diferent strings at once.
