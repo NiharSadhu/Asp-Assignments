@@ -2,8 +2,22 @@
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>@MyTheme</h1>
 
-Welcome to your new app.
+<p>My name is @MyName and this is the assignment 3</p>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<p>Current date and time: @CurrentDate</p>
+
+
+
+@code {
+
+    private string? MyTheme = "Richest Human Alive";
+
+    private string? MyName = "Nihar Sadhu";
+
+     public DateTime CurrentDate = DateTime.Now;
+
+}
+
+
