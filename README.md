@@ -67,3 +67,5 @@ new branch and named it Assignment 3.
 3) Using the terminal I made a new blazor server.
 
 4) I made variables in Pages/Index.razor for the approved theme, name, and the current date.
+
+5) I made Data/Model.cs file and made a constructor and assigned 5 properties to them.
