@@ -55,3 +55,15 @@ Using: dotnet ef migrations add New_DataAnnotations
 
 6) Added the ability to search database data and the are able to
 search 3 diferent strings at once.
+
+
+Assignment 3
+
+1) In the private GitHub repository that I used for assignments 1 and 2, I created a
+new branch and named it Assignment 3.
+
+2) Then, I Deleted all the files in the new branch except the .gitignore file.
+
+3) Using the terminal I made a new blazor server.
+
+4) I made variables in Pages/Index.razor for the approved theme, name, and the current date.
