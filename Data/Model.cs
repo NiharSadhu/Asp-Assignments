@@ -9,3 +9,4 @@ public class RichHuman
         public int Age { get; set; }
         public string Nationality { get; set; } = string.Empty; 
 }
+
