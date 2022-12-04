@@ -69,3 +69,12 @@ new branch and named it Assignment 3.
 4) I made variables in Pages/Index.razor for the approved theme, name, and the current date.
 
 5) I made Data/Model.cs file and made a constructor and assigned 5 properties to them.
+
+6) Added a component in side navigation in my application named Rich Humans.
+
+7)Created Model.Razor and then added input boxes and binded them.
+
+8)When button is clicked
+a variable for model type is created, which will be added in the list.
+
+9)All the properties is displayed on the page.
