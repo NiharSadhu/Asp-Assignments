@@ -5,7 +5,9 @@
 
 @using Asp_Assignments.Data
 
+<body>
 
+<div class="div1">
 <h1>Richest Humans Alive</h1>
 
 
@@ -14,24 +16,38 @@
 
 
 
+<input placeholder="Name" @bind="inputName" required /><br />
+
+<input placeholder="TheirExpertise" @bind="inputExpertise" required /><br />
+
+
+<input placeholder="NetWorth" @bind="inputWorth" required /><br />
+<button @onclick="AddName">Update List</button>
+
+</div>
+
+
+
+<br />
+
+<div class="div2">
+<p>The Inputs Will be Added Below:</p>
+
 <ul>
     @foreach (var rich in richHuman)
     {
         <li>Name : @rich.Name</li>
         <li>TheirExpertise : @rich.TheirExpertise</li>
-        <li>NetWorth : @rich.NetWorth</li>
+        <li>NetWorth : @rich.NetWorth</li><br />
 
     }
    
 </ul>
 
-<input placeholder="Name" @bind="inputName"  />
+</div>
 
-<input placeholder="TheirExpertise" @bind="inputExpertise"  />
+</body>
 
-
-<input placeholder="NetWorth" @bind="inputWorth"  />
-<button @onclick="AddName">Add todo</button>
 
 
 @code {
@@ -52,7 +68,7 @@
             
             Name = inputName,
             TheirExpertise = inputExpertise,
-            NetWorth = inputWorth,
+            NetWorth = inputWorth
 
      });
 
