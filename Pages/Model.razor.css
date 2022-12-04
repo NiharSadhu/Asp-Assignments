@@ -1,0 +1,31 @@
+
+
+
+
+h1{
+    text-align: center;
+}
+
+.div1{
+    text-align: center;
+    border-style: double;
+    background-color: rgb(133, 133, 133);
+    color: white;
+}
+
+.div2 {
+
+    background-color: rgb(83, 166, 255);
+    color: white;
+    height: 800px;
+}
+
+li{
+    list-style-type: none;
+}
+
+button{
+    margin: 5px;
+    color: white;
+    background-color: black;
+}
