@@ -6,7 +6,7 @@ public class RichHuman
         public string Name { get; set; } = string.Empty;
         public string TheirExpertise { get; set; } = string.Empty;
         public string NetWorth { get; set; } = string.Empty;
-        public int Age { get; set; }
-        public string Nationality { get; set; } = string.Empty; 
+
+
 }
 
