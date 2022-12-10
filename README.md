@@ -78,3 +78,4 @@ new branch and named it Assignment 3.
 a variable for model type is created, which will be added in the list.
 
 9)All the properties is displayed on the page.
+
